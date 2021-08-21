@@ -1,0 +1,17 @@
+[user]
+	name = Amit Kumar
+	email = mr.doc10jl96@gmail.com
+[core]
+	editor = nano
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+	lg = log --max-count=10000 --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	lc = log --max-count=10000 --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+        l = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cblue%an%Creset' --abbrev-commit --date=relative
+        lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	
