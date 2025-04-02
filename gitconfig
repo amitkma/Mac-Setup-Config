@@ -1,14 +1,17 @@
 [user]
 	name = Amit Kumar
 	email = mr.doc10jl96@gmail.com
+    signingKey = D30EDAFA4B5818EE
 [core]
-	editor = nano
-
+	editor = nvim
 [color]
     diff = auto
     status = auto
     branch = auto
-
+[commit]
+    gpgsign = true
+[gpg]
+    program = gpg
 [alias]
 	lg = log --max-count=10000 --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	lc = log --max-count=10000 --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
